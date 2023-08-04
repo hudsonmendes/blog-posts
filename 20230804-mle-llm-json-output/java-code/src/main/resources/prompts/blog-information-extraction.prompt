@@ -1,0 +1,16 @@
+Extract the following attributes from the blog post: 
+- Main Topic of the Post
+- Overall, does the post express a positive or negative view?
+- If available, what is the call to action?
+
+The blog post is delimited with triple hashes. \
+Format your response as a JSON object with \
+"mainTopic", "sentimentPolarity" and "callToAction"as the keys.
+
+If the information isn't present, use `null` \
+as the value.
+
+Make your response as short as possible.
+Format the "sentiment_polarity" value as a range between -1 for negative and 1 for positive.
+
+Blog Post: ###%s###
